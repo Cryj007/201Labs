@@ -1,9 +1,17 @@
-'use strict'
+'use strict';
+
 
 var fname = prompt('What is your first name?');
+console.log('Client\'s first name is ' + fname);
+
 var lname = prompt('What is you last name');
-var dog = prompt('Did I have a chihuahua?');
-var school = prompt('Have i been in private school until middle school?');
-var job = prompt('Was my third job L.A. Fitness?');
-var career = prompt('Is my main goal to start a career?');
-var hobby = prompt('Do I want to try and create pastries as a hobby?');
+console.log('Client\'s last name is ' + lname);
+
+var fullname = confirm('Is you name '+ fname + ' ' + lname + '?');
+if (fullname == true) {
+  alert('PLeasure to meet you' +fname+ ' ' +lname+ ', have fun playing a little game that I have made.');
+ } else {
+   alert('You/re boring, come one say your name.');
+  }
+  
+  
