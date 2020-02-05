@@ -22,3 +22,40 @@ if (dog === true) {
     //console.log('false');
     alert('Nope, try again');
   }
+
+  var school = confirm('Have i been in private school until middle school?');
+if (school === false) {
+//console.log('correct');
+  alert('Correct, I been in private school until high school');
+  } else {
+//console.log('false');
+    alert('False, try again');
+  }
+
+var job = confirm('Was my third job L.A. Fitness?');
+if (job === true) {
+  //console.log('correct');
+  alert('Yes, my third job was at L.A. Fitness');
+  } else {
+    //console.log('false');
+    alert('No, try again');
+  }
+ 
+var career = confirm('Is my main goal to start a career?');
+if (career === true) {
+  //console.log('correct');
+  alert('Correct, I do want to start a career');
+  } else {
+    //console.log('false');
+    alert('Nope, try again');
+  }
+
+var hobby = confirm('Do I want to try and create pastries as a hobby?');
+if (hobby === false) {
+  //console.log('correct');
+  alert('Yes, I want to try and make video games, not pastries');
+  } else {
+    //console.log('false');
+    alert('Try again');
+  }
+alert('Thank you for taking the time and playing my game ' +fname+' '+lname+'. Have a good day!!');
