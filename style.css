@@ -1,4 +1,5 @@
 body::before {
+  /*creates a shadow around the page-credit from css tricks*/
   content: "";
   position: fixed;
   top: -10px;
