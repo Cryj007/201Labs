@@ -18,51 +18,51 @@ if (fullname === true) {
   var dog = confirm('Did I have a chihuahua?');
 if (dog === true) {
   //console.log('correct');
-  alert('Yes, you are correct, I did have a chihuahua.');
+  corr();
   score+=1;
   } else {
-    //console.log('false');
-    alert('Nope, try again');
+    //console.log('false'); 
+    fals();
   }
 
   var school = confirm('Have i been in private school until middle school?');
 if (school === false) {
 //console.log('correct');
-  alert('Correct, I been in private school until high school');
+  corr();
   score+=1;
   } else {
 //console.log('false');
-    alert('False, try again');
+    fals();
   }
 
 var job = confirm('Was my third job L.A. Fitness?');
 if (job === true) {
   //console.log('correct');
-  alert('Yes, my third job was at L.A. Fitness');
+  corr();
   score+=1;
   } else {
     //console.log('false');
-    alert('No, try again');
+    fals();
   }
  
 var career = confirm('Is my main goal to start a career?');
 if (career === true) {
   //console.log('correct');
-  alert('Correct, I do want to start a career');
+  corr();
   score+=1;
   } else {
     //console.log('false');
-    alert('Nope, try again');
+    fals();
   }
 
 var hobby = confirm('Do I want to try and create pastries as a hobby?');
 if (hobby === false) {
   //console.log('correct');
-  alert('Yes, I want to try and make video games, not pastries');
+  corr();
   score+=1;
   } else {
     //console.log('false');
-    alert('Try again');
+    fals();
   }
 alert('Thank you for taking the time and playing my game ' +fname+' '+lname+'. Have a good day!!');
 
@@ -107,3 +107,13 @@ for(var j =0; j< 6; j++) {
 }
 alert ('Wrong, the answer is 2, 5, 8, and 10');
 alert (" you have about "+score +" Points");
+
+function corr(){
+  alert('You are correct.');
+}
+
+function fals(){
+  alert('You are worng');
+
+}
+
