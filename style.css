@@ -1,3 +1,6 @@
+/*Making a website colorful is obviously not my strong point*/
+
+
 body::before {
   /*creates a shadow around the page-credit from css tricks*/
   content: "";
@@ -12,29 +15,46 @@ body::before {
 
 
 body{
-  background-color:#F5F5DC;padding: 70px;border-style: outset;
+  background-color: rgb(2,0,36);
+  background: radial-gradient(circle, rgba(2,0,36,1) 33%, rgba(107,6,235,1) 36%, rgba(81,10,194,1) 59%, rgba(0,132,163,1) 83%, rgba(0,212,255,1) 100%);
+/*found wesite that helped me with this called cssgradient,io*/
 }
 
+
+
 .p1{
-  background-color:#6495ED;padding: 60px;border-style: inset;
+  ;padding: 60px;
+  border-style: inset;
+}
+
+.highlight { /*Took me forever to figure how to do this, thanks google*/
+  background: linear-gradient(180deg,rgba(255,255,255,0) 5%, #FFD0AE 5%);
 }
 
 .p2{
-  background-color:#DC143C;padding: 50px;border-style: outset;
+ ;padding: 50px;
+ border-style: outset;
 }
 
 .p3{
-  background-color:#008B8B;padding: 40px;border-style: inset;
+ color:grey;
+ padding: 40px;
+ border-style: inset;
 }
 
 .p4{
-  background-color:#8FBC8F;padding: 50px;border-style: outset;
+  color:grey;
+  padding: 50px;
+  border-style: outset;
 }
 
 .p5{
-  background-color:#E9967A;padding: 60px;border-style: inset;
+  color:grey;
+  padding: 60px;
+  border-style: inset;
 }
 
 .p6{
-  background-color:#00CED1;padding: 70px;border-style: outset;
+  ;padding: 70px;
+  border-style: outset;
 }
